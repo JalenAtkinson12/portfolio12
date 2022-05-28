@@ -3,6 +3,8 @@ import {Card, ListGroup, Row, Col} from 'react-bootstrap';
 import projectImage1 from '../../img/eventplan.png'
 import projectImage2 from '../../img/postboard.png'
 import projectImage3 from '../../img/passwordpic.png'
+import projectImage4 from '../../img/weather-screenshot.png'
+import projectImage5 from '../../img/Jate.png'
 
 export default function Contact() {
     return(
@@ -39,13 +41,38 @@ export default function Contact() {
                     <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src= {projectImage3} />
         <Card.Body>
-            <Card.Title>Community Bulletin Board</Card.Title>
+            <Card.Title>Random Password generator</Card.Title>
             <Card.Text>
             Random password generator!
             </Card.Text>
         </Card.Body>
         <Card.Body>
             <Card.Link href="https://jalenatkinson12.github.io/pwdGENERATOR/">Password generator</Card.Link>
+        </Card.Body>
+        </Card>     
+                    <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src= {projectImage4} />
+        <Card.Body>
+            <Card.Title>Weather Dashboard</Card.Title>
+            <Card.Text>
+            5 day forecast weather dashboard!
+            </Card.Text>
+        </Card.Body>
+        <Card.Body>
+            <Card.Link href="https://jalenatkinson12.github.io/Weather-Forecast/">Weather Dashboard</Card.Link>
+        </Card.Body>
+        </Card>     
+        
+                    <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src= {projectImage5} />
+        <Card.Body>
+            <Card.Title>J.A.T.E</Card.Title>
+            <Card.Text>
+            J.A.T.E(just another text editor)is a simple text editor that can also be downloaded!
+            </Card.Text>
+        </Card.Body>
+        <Card.Body>
+            <Card.Link href="https://safe-reef-44396.herokuapp.com/">Text Editor</Card.Link>
         </Card.Body>
         </Card>     
         
