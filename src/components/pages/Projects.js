@@ -6,9 +6,19 @@ import projectImage3 from '../../img/passwordpic.png'
 import projectImage4 from '../../img/weather-screenshot.png'
 import projectImage5 from '../../img/Jate.png'
 
+const bgColors = {"Default": "#f7f1ed",
+                   "peach" : "#febeb0",
+                   "stone" : "#3d5a5b",
+                   "glacier" : "#2f365f",
+};
+
 export default function Contact() {
     return(
+        
         <div>
+            <div style={{backgroundColor: bgColors.stone }}>
+
+            
             <h1>Projects!</h1>
             <p>Here are some of the projects that I worked on and contributed to</p>
      <Row xs={1} md={2} className="g-4">    
@@ -78,6 +88,7 @@ export default function Contact() {
         
 
  </Row>
+       </div>
         </div>
     );
 }
