@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, ListGroup, Row, Col} from 'react-bootstrap';
+import {Card, Row} from 'react-bootstrap';
 import projectImage1 from '../../img/eventplan.png'
 import projectImage2 from '../../img/postboard.png'
 import projectImage3 from '../../img/passwordpic.png'
@@ -12,11 +12,26 @@ const bgColors = {"Default": "#f7f1ed",
                    "glacier" : "#2f365f",
 };
 
+const style = {
+    backgroundColor: "#febeb0",
+    borderTop: "1px solid #febeb0",
+    textAlign: "center",
+    padding: "20px",
+    position: "fixed",
+    left: "0",
+    bottom: "0",
+    height: "60px",
+    width: "100%"
+  };
+
 export default function Contact() {
     return(
         
         <div>
-            <div style={{backgroundColor: bgColors.stone }}>
+            <div>
+            <div style={style}>footer</div>
+            
+            <div style={{backgroundColor: bgColors.peach }}>
 
             
             <h1>Projects!</h1>
@@ -88,6 +103,7 @@ export default function Contact() {
         
 
  </Row>
+       </div>
        </div>
         </div>
     );

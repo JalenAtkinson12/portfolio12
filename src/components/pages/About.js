@@ -6,10 +6,24 @@ const bgColors = {"Default": "#f7f1ed",
                    "stone" : "#3d5a5b",
                    "glacier" : "#2f365f",
 };
+
+const style = {
+    backgroundColor: "#febeb0",
+    borderTop: "1px solid #febeb0",
+    textAlign: "center",
+    padding: "20px",
+    position: "fixed",
+    left: "0",
+    bottom: "0",
+    height: "60px",
+    width: "100%"
+  };
 export default function About() {
     return(
         
         <div>
+            <div>
+            <div style={style}>footer</div>
             <div style={{backgroundColor: bgColors.peach }}>
 
             
@@ -20,6 +34,7 @@ export default function About() {
         <Col sm={2} className="m-auto">
 <img src={myself} class="img-fluid" width="300" alt="picture of myself"/>
 </Col>
+  </div>
   </div>
         </div>
 
